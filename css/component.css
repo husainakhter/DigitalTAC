@@ -193,16 +193,21 @@ div.bl-panel-items > div[data-panel="panel-1"] {
 /* Custom content */
 
 .bl-content p {
-	margin: 0 auto;
-	padding-bottom: 15px;
-	font-size: 1.7em;
-	line-height: 1.8;
+    margin: 0 auto;
+    padding-bottom: 0;
+    font-size: 1.5em;
+    line-height: 1.8;
 }
 
 .bl-content h2 {
-	font-size: 3em;
-	font-weight: 300;
-	margin: 0 0 20px 0;
+    font-size: 2.5em;
+    font-weight: 300;
+    margin: 0;
+}
+.bl-content h3 {
+    font-size: 1.5em;
+    font-weight: 300;
+    margin: 8px 0 10px 0;
 }
 
 .bl-content article {
@@ -380,7 +385,7 @@ div.bl-panel-items > div.bl-hide-current-work {
 	background: #EE4444;
 }
 .bl-main > section:nth-child(2).bl-expand {
-	background: #F98262;
+    background: #4BBE8E;
 }
 .bl-main > section:nth-child(3).bl-expand {
 	background: #4BBE8E;
