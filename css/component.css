@@ -184,6 +184,12 @@ div.bl-panel-items > div > div {
 	/*overflow-y: auto;*/
 }
 
+div.bl-panel-items > div[data-panel="panel-1"] > div {
+	position: static;
+}
+div.bl-panel-items > div[data-panel="panel-1"] {
+    padding-top: 1%;
+}
 /* Custom content */
 
 .bl-content p {
