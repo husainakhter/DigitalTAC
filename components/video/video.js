@@ -23,7 +23,7 @@ var playerOptions = {
 
 jQuery(document).ready(function($){
 
-	if( document.getElementById('whatIsCloudVideo') || document.getElementById('internetPresenceVideo') ) {
+	if( document.getElementById('whatIsCloudVideo') ) {
 		if(!isLoadedScript(youTubeIframeApi)) {
 			var tag = document.createElement('script');
 			tag.src = youTubeIframeApi;
@@ -35,12 +35,9 @@ jQuery(document).ready(function($){
 	window.onYouTubePlayerAPIReady = function(){
 
 		if(document.getElementById('whatIsCloudVideo')) {
-			playerOptions.playerVars.playlist = 'nGJBgvNzfno';
+			playerOptions.playerVars.playlist = "efRNKkmWdc0";
+			
 			new YT.Player('whatIsCloudVideo', playerOptions);
-		}
-		if(document.getElementById('internetPresenceVideo')) {
-			playerOptions.playerVars.playlist = 'Kqll2XAvOos';
-			new YT.Player('internetPresenceVideo', playerOptions);
 		}
 	}
 });
